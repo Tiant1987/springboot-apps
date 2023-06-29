@@ -7,12 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-jenkins" />
+        <module name="springboot-jenkins-github" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="springboot-jenkins" options="-parameters" />
+      <module name="springboot-jenkins-github" options="-parameters" />
     </option>
   </component>
 </project>
