@@ -10,6 +10,6 @@ public class TestController {
 
     @GetMapping("getinfo")
     public String GetInfo(){
-        return "Hello Jenkins 我是过薄弱啊啊啊啊";
+        return "Hello Jenkins 我是过薄弱啊啊啊啊xxxxx";
     }
 }
